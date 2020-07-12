@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="31.7">
+    <testcase classname="Listar Veiculos usados a venda" name="Deve verificar modelo e valor dos dois primeiros itens da pesquisa" time="16.697">
+        <system-out><![CDATA[Dado que estou na pagina inicial............................................passed
+Quando incluo a "Honda" e "City" do veiculo desejado........................passed
+E incluo o ano entre "2010" e "2014" desejado...............................passed
+E insiro os precos "30" e "35" do veiculo...................................passed
+E forneco o meu "13073-010".................................................passed
+E efetuo a busca............................................................passed
+Entao o preco do primeiro e segundo veiculos listados deve estar entre "30" e "35".passed
+E o modelo dos dois primeiro da lista devem ser "City"......................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Listar Veiculos usados a venda" name="Deve verificar modelo e valor dos dois primeiros itens da pesquisa 2" time="14.655">
+        <system-out><![CDATA[Dado que estou na pagina inicial............................................passed
+Quando incluo a "Peugeot" e "208" do veiculo desejado.......................passed
+E incluo o ano entre "2015" e "2018" desejado...............................passed
+E insiro os precos "26" e "35" do veiculo...................................passed
+E forneco o meu "13073-010".................................................passed
+E efetuo a busca............................................................passed
+Entao o preco do primeiro e segundo veiculos listados deve estar entre "26" e "35".passed
+E o modelo dos dois primeiro da lista devem ser "208".......................passed
+]]></system-out>
+    </testcase>
+</testsuite>

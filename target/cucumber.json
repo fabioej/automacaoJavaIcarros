@@ -1,0 +1,403 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-12T21:42:51.156Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3928732000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ListarAnunciosSteps.inicializar()"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "Deve verificar modelo e valor dos dois primeiros itens da pesquisa",
+        "description": "",
+        "id": "listar-veiculos-usados-a-venda;deve-verificar-modelo-e-valor-dos-dois-primeiros-itens-da-pesquisa;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 519698600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ListarAnunciosSteps.capturarTela(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 893485600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ListarAnunciosSteps.finalizar()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2217718300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "que estou na pagina inicial",
+            "match": {
+              "location": "steps.ListarAnunciosSteps.que_estou_na_pagina_inicial()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 2979278400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "incluo a \"Honda\" e \"City\" do veiculo desejado",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Honda\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"City\"",
+                  "offset": 19
+                }
+              ],
+              "location": "steps.ListarAnunciosSteps.incluo_a_e_do_veiculo_desejado(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 2237708300,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "incluo o ano entre \"2010\" e \"2014\" desejado",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2010\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"2014\"",
+                  "offset": 28
+                }
+              ],
+              "location": "steps.ListarAnunciosSteps.incluo_o_ano_entre_e_desejado(java.lang.String,java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1001421700,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "insiro os precos \"30\" e \"35\" do veiculo",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"30\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"35\"",
+                  "offset": 24
+                }
+              ],
+              "location": "steps.ListarAnunciosSteps.insiro_os_precos_e_do_veiculo(java.lang.String,java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 841513700,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "forneco o meu \"13073-010\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"13073-010\"",
+                  "offset": 14
+                }
+              ],
+              "location": "steps.ListarAnunciosSteps.forneco_o_meu(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1132345200,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "efetuo a busca",
+            "match": {
+              "location": "steps.ListarAnunciosSteps.efetuo_a_busca()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 777552300,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "o preco do primeiro e segundo veiculos listados deve estar entre \"30\" e \"35\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"30\"",
+                  "offset": 65
+                },
+                {
+                  "val": "\"35\"",
+                  "offset": 72
+                }
+              ],
+              "location": "steps.ListarAnunciosSteps.o_preco_do_primeiro_e_segundo_veiculos_listados_deve_estar_entre_e(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Entao "
+          },
+          {
+            "result": {
+              "duration": 65963700,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "o modelo dos dois primeiro da lista devem ser \"City\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"City\"",
+                  "offset": 46
+                }
+              ],
+              "location": "steps.ListarAnunciosSteps.o_modelo_dos_dois_primeiro_da_lista_devem_ser(java.lang.String)"
+            },
+            "keyword": "E "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@verificarDoisPrimeirosItens"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-12T21:43:07.868Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3334122200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ListarAnunciosSteps.inicializar()"
+            }
+          }
+        ],
+        "line": 36,
+        "name": "Deve verificar modelo e valor dos dois primeiros itens da pesquisa",
+        "description": "",
+        "id": "listar-veiculos-usados-a-venda;deve-verificar-modelo-e-valor-dos-dois-primeiros-itens-da-pesquisa;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 503708500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ListarAnunciosSteps.capturarTela(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 888486900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.ListarAnunciosSteps.finalizar()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2023831500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "que estou na pagina inicial",
+            "match": {
+              "location": "steps.ListarAnunciosSteps.que_estou_na_pagina_inicial()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 2680452500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "incluo a \"Peugeot\" e \"208\" do veiculo desejado",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Peugeot\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"208\"",
+                  "offset": 21
+                }
+              ],
+              "location": "steps.ListarAnunciosSteps.incluo_a_e_do_veiculo_desejado(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1169324700,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "incluo o ano entre \"2015\" e \"2018\" desejado",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2015\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"2018\"",
+                  "offset": 28
+                }
+              ],
+              "location": "steps.ListarAnunciosSteps.incluo_o_ano_entre_e_desejado(java.lang.String,java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1135344300,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "insiro os precos \"26\" e \"35\" do veiculo",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"26\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"35\"",
+                  "offset": 24
+                }
+              ],
+              "location": "steps.ListarAnunciosSteps.insiro_os_precos_e_do_veiculo(java.lang.String,java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 879492700,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "forneco o meu \"13073-010\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"13073-010\"",
+                  "offset": 14
+                }
+              ],
+              "location": "steps.ListarAnunciosSteps.forneco_o_meu(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1304247900,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "efetuo a busca",
+            "match": {
+              "location": "steps.ListarAnunciosSteps.efetuo_a_busca()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 653621200,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "o preco do primeiro e segundo veiculos listados deve estar entre \"26\" e \"35\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"26\"",
+                  "offset": 65
+                },
+                {
+                  "val": "\"35\"",
+                  "offset": 72
+                }
+              ],
+              "location": "steps.ListarAnunciosSteps.o_preco_do_primeiro_e_segundo_veiculos_listados_deve_estar_entre_e(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Entao "
+          },
+          {
+            "result": {
+              "duration": 74956900,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "o modelo dos dois primeiro da lista devem ser \"208\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"208\"",
+                  "offset": 46
+                }
+              ],
+              "location": "steps.ListarAnunciosSteps.o_modelo_dos_dois_primeiro_da_lista_devem_ser(java.lang.String)"
+            },
+            "keyword": "E "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@verificarDoisPrimeirosItens"
+          }
+        ]
+      }
+    ],
+    "name": "Listar Veiculos usados a venda",
+    "description": "  Como um comprador do site\n  Eu quero pesquisar por uma marca e modelo de veiculo\n  e vizualizar as opcoes disponiveis",
+    "id": "listar-veiculos-usados-a-venda",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/features/listar_anuncios.feature",
+    "tags": []
+  }
+]
